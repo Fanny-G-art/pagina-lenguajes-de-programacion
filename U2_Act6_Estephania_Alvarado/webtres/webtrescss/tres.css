@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Grandstander', cursive;
+}
+nav{
+    text-align: right;
+    padding:30px 50px 0 0;
+
+}
+
+nav > a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+nav > a:hover{
+    
+    text-decoration: underline;
+    
+    
+
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(100% deg, #30553b 0% #1a1b1f 100% );
+}
+
+.nav__hero{
+    color: rgb(0, 0, 0);
+    height: 70px;
+    border-bottom: 1px solid rgba(14, 9, 9, 0.753);
+}
+
+header{
+    width: 100%;
+    height: 800px;
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #04f8e41e, #dbe73180), url(../img/internopagina.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f8049250, #f2f5289a), url(../img/internopagina.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.textos-header h1{
+    font-size: 120px;
+    color: rgba(243, 139, 41, 0.952);
+}
+
+.textos-header h2{
+    font-size: 90px;
+    font-weight: 300;
+    color: rgb(13, 15, 15);
+
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color: rgb(42, 185, 29);
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.contenedor-in-js{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+    
+    .imagen-definicion{
+        width: 38%;
+    
+    }
+    
+    .definicion-js .contenido-textos{
+        width: 48%;
+    
+    }
+    .contenido-textos h3{
+        margin-bottom: 15px;
+    
+    }
+    
+    .contenido-textos h3 span{
+        background: rgb(129, 216, 228);
+        color: rgb(7, 7, 6);
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        margin-right: 5px;
+    
+    
+    }
+    
+    .contenido-textos p{
+        padding: 0px 0px 30px 15px;
+        font-weight: 300;
+        text-align: justify;
+    
+    }

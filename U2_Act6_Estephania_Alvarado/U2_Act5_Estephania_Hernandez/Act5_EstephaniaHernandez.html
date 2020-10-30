@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel= "stylesheet" href="estilos_EstephaniaHernadez.css/fanny.css">
+</head>
+<body>
+    <div class="container text-center py-5">
+        <h1 id="titulo" class="display-3 py-5">cambiar texto</h1>
+        <button id="boton" class="btn btn-danger" onclick=' document.getElementById("titulo").innerHTML = nombre + apellido + grado;'>haz clic</button>
+
+    </div>
+    <script>
+        var nombre = " Estephania Gabriela   ";
+        var apellido ="Hernandez Alvarado";
+        var grado =" 5A  T/V  BTDS";
+       // document.getElementById("titulo").innerHTML = nombre + apellido + grado;
+
+
+    </script>
+
+
+
+    <header>
+        <nav>
+            <a href="../webuno/uno.html">Generaciones</a>
+            <a href="../webtres/tres.html">Internos</a>
+            <a href="../webdos/webdoss.html">Externos</a>
+            <a href="../formulario/formulario.html">Datos</a>
+            <a href="../cuestionario/cuestionario.html">Cuestionario</a>
+            <a href="../U2_Act5_Estephania_Hernandez/Act5_EstephaniaHernandez.html">dom</a>
+
+        </nav>
+        <section class="textos-header">
+            <h1>  DOM </h1>
+            <h2>nodos</h2>
+            
+
+        </section>
+    </header>
+    <var referencia = document.getElementbyId("insertar")></var>
+    <section class="contenedor definicion-js">
+        <h2 class="titulo">DOM</h2>
+        <div class="contenedor-definicion-js">
+           
+            <img src="img/foto.gif" alt="" class="imagen-definicion">
+            <div class="contenido-textos">
+                <h3><span>.</span>Definición </h3>
+                <p>DOM transforma todos los documentos XHTML en un conjunto de elementos llamados nodos, que están interconectados y que representan los contenidos de las páginas web y las relaciones entre ellos. Por su aspecto, la unión de todos los nodos se llama "árbol de nodos,En el DOM los documentos tienen una estructura parecida a un árbol, creando una estructura jerárquica en la que de un objeto principal pueden depender varios secundarios. Esto se ve claramente en la estructura que tiene la página de HTML, la cual consta de etiquetas anidadas.Una de las tareas habituales en la programación de aplicaciones web con JavaScript consiste en la manipulación de las páginas web. De esta forma, es habitual obtener el valor almacenado por algunos elementos (por ejemplo los elementos de un formulario), crear un elemento (párrafos, <div>, etc.) de forma dinámica y añadirlo a la página, aplicar una animación a un elemento (que aparezca/desaparezca, que se desplace, etc.).
+                    Todas estas tareas habituales son muy sencillas de realizar gracias a DOM. Sin embargo, para poder utilizar las utilidades de DOM, es necesario "transformar" la página original. Una página HTML normal no es más que una sucesión de caracteres, por lo que es un formato muy difícil de manipular. Por ello, los navegadores web transforman automáticamente todas las páginas web en una estructura más eficiente de manipular.
+                    </p>
+
+            </div>
+
+        </div>
+        <var contenido = document.createTextNode("el final");></var>
+
+        <div class="container text-center py-5">
+            <h1 id="fua" class="display-3 py-5">FUNCIONES</h1>
+            <button id="boton" class="btn btn-danger"> haz click</button>
+        
+        
+        </div>
+        
+            <script>
+                function suma(numero1, numero2){
+                    return numero1 + numero2;
+                    
+                }
+                var x = 20;
+                var y = 6;
+                document.getElementById("fua").innerHTML = suma(x,y);
+        
+            </script>
+
+
+<div class="rosa">
+    <p>verde </p>
+</div>
+<div class="amarillo">
+    <p>naranja </p>
+</div>
+<div class="blanco">
+    <p>verde </p>
+</div>
+
+<p>Click </p>
+<button onclick="myfuntion()">click</button>
+
+
+<script>
+    function myfuntion(){
+        var x = document.getElementsByClassName("example color");
+        x [0].style.backgroundcolor = "red";
+    }
+</script>
+</body>
+</html>

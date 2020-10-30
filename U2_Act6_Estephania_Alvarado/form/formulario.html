@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORMULARIO</title>
+    <link rel="stylesheet" href="css/formu.css"
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../webuno/uno.html">Generaciones</a>
+            <a href="../webtres/tres.html">Internos</a>
+            <a href="../webdos/webdoss.html">Externos</a>
+            <a href="../formulario/formulario.html">Datos</a>
+            <a href="../cuestionario/cuestionario.html">Cuestionario</a>
+        </nav>
+    </header>
+
+
+    <form action="mailto:hernandez.estephania@alumnos.udg.mx" method="POST" id="form" enctype="text/plain">
+
+    <div class="form">
+        <h1>DATOS</h1>
+        <div class="grupo">
+            <input type="text" name="correo" id="name" required><span class="barra"></span>
+            <label for="">CORREO</label>
+        </div>­
+        <div class="grupo">
+            <input type="grado" name="Grado" id="grade"required ><span class="barra"></span>
+            <label for="">Grado y Grupo</label>
+        </div>
+        <div class="grupo">
+            <input type="codigo" name="Code" id="code" required><span class="barra"></span>
+            <label for="">Codigo de Estudiante</label>
+        </div>
+    </div>­
+    <div class="grupo">
+        <input type="grado" name="Nombre" id="na"required ><span class="barra"></span>
+        <label for="">Nombres</label>
+    </div>
+    <div class="grupo">
+        <input type="codigo" name="Apellidos" id="ape" required><span class="barra"></span>
+        <label for="">Apellidos</label>
+    </div>
+
+       <button type="submit">ENVIAR</button>
+       <p class="warnings" id="warnings"></p>
+        </div>
+
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
